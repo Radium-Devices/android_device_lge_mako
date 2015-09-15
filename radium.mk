@@ -25,3 +25,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Enable Torch
 PRODUCT_PACKAGES += Torch
 
+PRODUCT_PROPERTY_OVERRIDES += ro.radium.maintainer=akhilnarang
