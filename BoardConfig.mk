@@ -31,7 +31,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 
 ROM_OPTIS := true
 KBUILD_BUILD_USER := akhilnarang
-WITH_LZMA_OTA := true
+#WITH_LZMA_OTA := true
 
 # Try to build the kernel
 TARGET_KERNEL_SOURCE := kernel/google/msm
