@@ -30,7 +30,8 @@ BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=mako lpj=
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 
 ROM_OPTIS := true
-TARGET_GCC_VERSION_EXP := 4.9
+KBUILD_BUILD_USER := akhilnarang
+WITH_LZMA_OTA := true
 
 # Try to build the kernel
 TARGET_KERNEL_SOURCE := kernel/google/msm
